@@ -70,7 +70,7 @@ class UserController extends BaseController
             $id=Input::get('id');
             $user=User::find($id);
             $user->delete();
-            return Redirect::to('/adm/user');
+            return "删除成功";
     }
 
     public function Login()

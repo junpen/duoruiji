@@ -49,5 +49,4 @@
             }
         }
     </script>
-@stop
 @endsection
